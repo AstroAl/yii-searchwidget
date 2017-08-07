@@ -1,0 +1,14 @@
+{
+    "name": "bibldev/yii2-searchwidget",
+    "authors": [
+        {
+            "name": "tutorialspoint"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "SearchWidget": "src/"
+        }
+    }
+}
