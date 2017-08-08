@@ -1,5 +1,5 @@
 <?php
-namespace bibldev\SearchWidget;
+namespace bibldev\searchwidget;
 use yii\web\AssetBundle;
 
 class SearchAssets extends AssetBundle

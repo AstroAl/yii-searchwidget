@@ -1,6 +1,6 @@
 <?php
 
-namespace bibldev\SearchWidget;
+namespace bibldev\searchwidget;
 use app\models\Category;
 use yii\base\Widget;
 use yii\helpers\Html;
