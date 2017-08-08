@@ -10,5 +10,6 @@
         "psr-0": {
             "SearchWidget": "src/"
         }
-    }
+    },
+    "license": "BSD-3-Clause"
 }
