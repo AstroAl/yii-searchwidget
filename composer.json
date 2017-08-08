@@ -1,5 +1,7 @@
 {
+    
     "name": "bibldev/yii2-searchwidget",
+    "type": "yii2-extension",
     "authors": [
         {
             "name": "Biblbrox"
