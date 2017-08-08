@@ -1,6 +1,6 @@
 <?php
 
-use app\components\SearchWidget\SearchAssets;
+use bibldev\searchwidget\SearchAssets;
 use yii\helpers\Url;
 SearchAssets::register($this);
 ?>

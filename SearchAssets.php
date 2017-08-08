@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 class SearchAssets extends AssetBundle
 {
 
-    public $sourcePath = '@bibldev/assets';
+    public $sourcePath = '@bibldev/searchwidget/assets';
 
     public $js = [
         'js/main.js'
