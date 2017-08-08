@@ -8,7 +8,7 @@
     "require": {},
     "autoload": {
         "psr-0": {
-            "SearchWidget": "src/"
+            "bibldev\\searchwidget\\": ""
         }
     },
     "license": "BSD-3-Clause"
