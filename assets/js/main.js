@@ -1,10 +1,18 @@
 $(document).ready(function() {
-    $('.search-btn').attr('disabled', true);
-    $('.search-query').keyup(function () {
+    let blockSearchBtn = $('#block-search-btn');
+    blockSearchBtn.attr('disabled', true)
+    $('#block-field').keyup(function () {
         if($(this).val().length !== 0 && /\S/.test($(this).val()))
-            $('.search-btn').attr('disabled', false);
+            blockSearchBtn.attr('disabled', false);
         else
-            $('.search-btn').attr('disabled', true);
+            blockSearchBtn.attr('disabled', true);
     });
-    console.log("Clicked");
+    let navSearchBtn = $('#nav-search-btn');
+    navSearchBtn.attr('disabled', true);
+    $('#nav-field').keyup(function () {
+        if($(this).val().length !== 0 && /\S/.test($(this).val()))
+            navSearchBtn.attr('disabled', false);
+        else
+            navSearchBtn.attr('disabled', true);
+    });
 });
